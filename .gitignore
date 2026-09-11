@@ -30,3 +30,9 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# 沙箱环境下重定向到工作区内的 Go 构建/模块缓存（本机开发可忽略）
+.gocache/
+.gopath/
+.gotmp/
+.gotelemetry/
